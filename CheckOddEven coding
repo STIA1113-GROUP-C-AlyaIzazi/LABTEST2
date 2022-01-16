@@ -1,0 +1,35 @@
+package LABTEST2;
+
+import java.util.Scanner;
+
+public class CheckOddEven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	    Scanner sc = new Scanner (System.in);
+	    
+        int number;
+        int loop = 1;
+        		
+        		while (loop != 0) {
+        System.out.println("Please enter any number:");
+        number = sc.nextInt();
+        
+        if (number%2 == 0) {
+        	System.out.println("Your number is an even number");
+        } else 
+        		System.out.println("Your number is an odd number");
+        
+        System.out.println("bye!");
+        System.out.println();
+        
+        System.out.println("Do you want to enter another number. Please enter 1 if you want to enter another number. Please enter 0 if you want to stop:");
+        loop = sc.nextInt();
+        System.out.println();
+        
+        		}  
+        		
+        
+	}
+
+}
